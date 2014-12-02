@@ -1,0 +1,99 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+\header{JP}{Smith}
+       {Student, Hacker, Adventurer}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{about}
+    17 Payne Place
+    Normal, Il. 61761
+    United States
+    ~
+    \href{mailto:jp@writes.co.de}{jp@writes.co.de}
+    \href{http://writes.co.de}{writes.co.de}
+    \href{http://github.com/japesinator}{github.com/japesinator}
+  \section{languages}
+    english
+    basic spanish
+  \section{programming}
+    {\color{red} $\varheartsuit$} Haskell
+    Technical Writing
+    Idris
+    Python
+    Go
+\end{aside}
+
+\section{interests}
+
+functional programming, type theory, mathematics, information security,
+category theory, formal verification, technical writing, category theory,
+programming language theory, cryptography, vim
+
+\section{education}
+
+\begin{entrylist}
+  \entry
+    {2012–2015}
+    {Part-Time Student}
+    {Illinois State University}
+    {Mathematics through Complex Analysis\\
+    Computer Science independent study and research}
+  \entry
+    {2010–2015}
+    {Full-Time Student}
+    {Bloomington Central Catholic High School}
+    {Focus on mathematics and the sciences}
+  \entry
+    {2014}
+    {Stanford University}
+    {Online Student via Coursera}
+    {Cryptography from Dan Boneh}
+\end{entrylist}
+
+\section{experience}
+
+\begin{entrylist}
+  \entry
+    {2014}
+    {Ingersoll Scout Reservation}
+    {STEM Director}
+    {\emph{Managed a staff of two and a building, taught more than 1,000 children.}}
+  \entry
+    {2013-2014}
+    {The Katie School of Insurance and Risk Management}
+    {Researcher}
+    {\emph{Focused on machine learning and security in unmanned aerial systems, especiatlly with regard to integration with businesses.}}
+  \entry
+    {2013-2014}
+    {ISUSEC}
+    {Vice President}
+    {\emph{Taught students security concepts and practice, promoted meetings and events, and built capture the flag competitions}}
+\end{entrylist}
+
+\section{projects}
+
+\begin{entrylist}
+  \entry
+    {2014}
+    {TARTS}
+    {\href{https://github.com/japesinator/tarts}{github.com/japesinator/tarts}}
+    {Formally verified cryptosystems' resistance to timing attacks with the Curry-Howard isomorphism \\
+    Applied to present at THOTCON 2015.}
+  \entry
+    {2014}
+    {Fire\star}
+    {\href{https://github.com/mempko/firestr}{github.com/mempko/firestr}}
+    {Wrote documentation for a distributed system for computation and communication and then set up readthedocs for easy access and versioning.}
+  \entry
+    {2014}
+    {The Idris Language}
+    {\href{https://github.com/idris-lang/Idris-dev}{github.com/idris-lang/Idris-dev}}
+    {Wrote part of the standard vector library, formally verified functors, applicatives, and monads, and part of the standard stream library}
+\end{entrylist}
+
+\end{document}
