@@ -21,11 +21,11 @@
 \definecolor{gray}{HTML}{4D4D4D}
 \definecolor{lightgray}{HTML}{999999}
 
-\definecolor{green}{HTML}{C2E15F}
-\definecolor{orange}{HTML}{FDA333}
-\definecolor{purple}{HTML}{D3A4F9}
-\definecolor{red}{HTML}{FB4485}
-\definecolor{blue}{HTML}{6CE0F1}
+\definecolor{green}{HTML}{4D4D4D}
+\definecolor{orange}{HTML}{4D4D4D}
+\definecolor{purple}{HTML}{4D4D4D}
+\definecolor{red}{HTML}{4D4D4D}
+\definecolor{blue}{HTML}{4D4D4D}
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
